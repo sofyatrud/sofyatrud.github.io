@@ -1,63 +1,62 @@
 /* Reset des styles par défaut */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Styles de base pour le corps de la page */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #8e8fab;
-    color: #333;
-}
-
-/* Styles pour la classe de conteneur principal */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Styles pour les titres */
-h1 {
-    font-size: 24px;
-    color: #333;
-}
-
-h2 {
-    font-size: 20px;
-    color: #666;
-}
-
-/* Styles pour les paragraphes */
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
-
-/* Styles pour les liens */
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Styles pour les boutons */
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #8e8fab;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #0056b3;
-}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    /* Reset des styles par défaut */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* Styles de base pour le corps de la page */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #8e8fab;
+      color: #333;
+    }
+    /* Styles pour la classe de conteneur principal */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    /* Styles pour les titres */
+    h1 {
+      font-size: 24px;
+      color: #333;
+    }
+    h2 {
+      font-size: 20px;
+      color: #666;
+    }
+    /* Styles pour les paragraphes */
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+    /* Styles pour les liens */
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Styles pour les boutons */
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #8e8fab;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
