@@ -62,3 +62,12 @@ a:hover {
 .button:hover {
     background-color: #8e8fab;
 }
+<style>
+    .image-container {
+        display: flex;
+    }
+    
+    .image-container img {
+        margin-right: 0px; /* Add some space between the images */
+    }
+</style>
